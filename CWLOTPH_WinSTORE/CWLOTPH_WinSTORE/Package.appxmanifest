@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="a2ae2582-bfba-40db-bead-cc3989316ab8" Publisher="CN=Даниил" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>CWLOTPH_WinSTORE</DisplayName>
+    <PublisherDisplayName>Даниил</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CWLOTPH_WinSTORE.App">
+      <m2:VisualElements DisplayName="CWLOTPH_WinSTORE" Square150x150Logo="Assets\StoreLogo.png" Square30x30Logo="Assets\SmallLogo.png" Description="CWLOTPH_WinSTORE" ForegroundText="light" BackgroundColor="#FFFFFF">
+        <m2:DefaultTile Square70x70Logo="Assets\Square70x70Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Wide310x150Logo="Assets\Wide310x150Logo.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#D8E4EB" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
